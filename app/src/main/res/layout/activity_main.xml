@@ -62,7 +62,7 @@
 
     <LinearLayout
         android:id="@+id/linearLayBtnSeason"
-        android:layout_width="150dp"
+        android:layout_width="200dp"
         android:layout_height="fill_parent"
         android:layout_marginBottom="50dp"
         android:layout_below="@id/edtTxtSearch"
@@ -154,6 +154,7 @@
             android:weightSum="99">
 
             <LinearLayout
+                android:id="@+id/linearLayBtnFruits"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
@@ -181,6 +182,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/linearLayBtnVegetables"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
@@ -208,6 +210,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/linearLayBtnMeat"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
@@ -244,6 +247,7 @@
             android:weightSum="99">
 
             <LinearLayout
+                android:id="@+id/linearLayBtnCereals"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
@@ -271,6 +275,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/linearLayBtnMilk"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
@@ -298,6 +303,7 @@
             </LinearLayout>
 
             <LinearLayout
+                android:id="@+id/linearLayBtnFish"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical"

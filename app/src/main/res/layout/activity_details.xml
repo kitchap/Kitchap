@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gcarv.kitchap.DetailsActivity">
+
+
+    <ImageView
+        android:id="@+id/imgViewPreviousDetails"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@mipmap/ic_previous"
+        android:layout_margin="15dp"/>
+
+    <ListView
+        android:id="@+id/listViewDetails"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_below="@id/imgViewPreviousDetails"></ListView>
+
+    <LinearLayout
+        android:id="@+id/linearLayMenuLeft"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        >
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/txtViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Potatoes"
+        android:textSize="70sp"
+        android:textColor="@android:color/black"
+        android:layout_toRightOf="@id/listViewDetails"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:id="@+id/txtViewHowToStore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How to store"
+        android:textColor="@android:color/black"
+        android:textSize="40sp"
+        android:layout_below="@id/txtViewTitle"
+        android:layout_toRightOf="@id/listViewDetails"
+        android:padding="20dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="35dp"
+        android:layout_toRightOf="@id/listViewDetails"
+        android:layout_below="@id/txtViewHowToStore"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_shelves"
+            />
+
+        <ImageView
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_not_sun"
+            />
+
+        <TextView
+            android:padding="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="21°"
+            android:textSize="50sp"/>
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="100dp"
+        android:src="@mipmap/img_potatoes_big"/>
+
+</RelativeLayout>

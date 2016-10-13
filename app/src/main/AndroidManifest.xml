@@ -15,6 +15,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".SeasonalActivity" />
+        <activity android:name=".ResumeActivity" />
+        <activity android:name=".DetailsActivity"></activity>
     </application>
 
 </manifest>
