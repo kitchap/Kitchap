@@ -171,6 +171,7 @@
 
     </LinearLayout>
 
+    <!--
     <include android:id="@+id/news_item"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -211,9 +212,11 @@
         android:layout_toRightOf="@id/linearLayMenuLeft"
         layout="@layout/item_list_resume"/>
 
+        -->
+
+
     <ListView
-        android:id="@+id/listView"
-        android:visibility="gone"
+        android:id="@+id/listViewResume"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_toRightOf="@id/linearLayMenuLeft"

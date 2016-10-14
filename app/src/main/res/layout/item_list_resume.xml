@@ -6,35 +6,28 @@
     android:id="@+id/linearLayItemResume"
     android:gravity="center_vertical">
 
-    <TextView
-        android:padding="10dp"
+    <ImageView
+        android:id="@+id/imgElement"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="30sp"
+        android:padding="20dp"
+        android:src="@mipmap/ic_banana_96"/>
+
+    <TextView
+        android:id="@+id/txtViewName"
+        android:padding="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
         android:textColor="@android:color/black"
         android:text="Patatoes"/>
 
     <ImageView
-        android:layout_width="30dp"
-        android:layout_margin="10dp"
-        android:layout_height="wrap_content"
-        android:src="@mipmap/ic_shelves"
-        />
-
-    <ImageView
-        android:layout_width="30dp"
-        android:layout_margin="10dp"
-        android:layout_height="wrap_content"
-        android:src="@mipmap/ic_oven"
-        />
-
-
-    <TextView
-        android:padding="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="30sp"
-        android:textColor="@android:color/black"
-        android:text="15'"/>
+        android:layout_margin="10dp"
+        android:src="@mipmap/ic_temperature_yellow_96"
+        />
+
 
 </LinearLayout>

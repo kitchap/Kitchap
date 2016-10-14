@@ -1,0 +1,49 @@
+{
+  "Categories": {
+    "fruits": [
+      {
+        "id": "1",
+        "name": "banana",
+        "image": "ic_banana_96",
+        "temp": "0"
+      },
+      {
+        "id": "2",
+        "name": "grapes",
+        "image": "ic_grapes_96",
+        "temp": "1"
+      },
+      {
+        "id": "3",
+        "name": "cherry",
+        "image": "ic_cherry_96",
+        "temp": "1"
+      },
+      {
+        "id": "4",
+        "name": "citrus",
+        "image": "ic_citrus_96",
+        "temp": "1"
+      },
+      {
+        "id": "5",
+        "name": "strawberry",
+        "image": "ic_strawberry_96",
+        "temp": "1"
+      },
+      {
+        "id": "6",
+        "name": "kiwi",
+        "image": "ic_kiwi_96",
+        "temp": "1"
+      },
+      {
+        "id": "7",
+        "name": "melon",
+        "image": "ic_melon_96",
+        "temp": "0"
+      }
+
+    ]
+  }
+}
